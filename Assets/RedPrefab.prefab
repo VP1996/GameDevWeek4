@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6774921714933672622}
   - component: {fileID: 6774921714933672623}
   m_Layer: 0
-  m_Name: Red Sphere
+  m_Name: RedPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6774921714933672616}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.15890424, y: 0.37441787, z: 0.3569013, w: -0.8409412}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
