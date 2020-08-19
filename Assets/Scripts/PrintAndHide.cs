@@ -11,15 +11,25 @@ public class PrintAndHide : MonoBehaviour
     public Renderer rend;
 
 
-
     void Start()
     {
-        i = 0;
+
+
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        Debug.Log(sph.name + ++i);
+        ++i;
+        Debug.Log(sph.name + i);
+        if (i == 100 && sph.tag == "Red") 
+        { 
+            sph.SetActive(false);
+        }
+
+        if( sph.tag == "Blue" && i == Random.Range(200, 251))
+        {
+            rend.enabled = false;
+        }
     }
 }
